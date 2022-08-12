@@ -21,4 +21,9 @@ public class Car : MonoBehaviour
             transform.Translate(Vector3.left * _speed * Time.deltaTime);
         }
     }
+
+    public void Run()
+    {
+        _go = true;
+    }
 }
